@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'orwxT5w4VrTRe-vSL9PQWBkytrTA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Gg_DubaY4mmiZ0J14HKlDnvmmeRsI-7d9HsZ8FejNK4',
+      useTemplateId: 'vP8tNrI_kkAIW88aD6jnXHL9aO1ITmUtqFYhsr_mroY',
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -37,14 +37,12 @@ const USER_CONFIG = {
       ],
       
             // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '11-22',
+      horoscopeDate: '11- 22',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       
       SLOT_LIST: [
-    {
-      keyword: 'lover_prattle',
-      contents: [
+    { keyword: 'lover_prattle',contents: [
         '因为太喜欢你，所以看谁都像是情敌。',
         '申请成为你爱里的永久居民。',
         '你很傻，你很笨，可我还是很羡慕你，因为你有我',
