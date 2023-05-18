@@ -35,13 +35,13 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2023-03-12' },
       ],
+      
             // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '11-22',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
+      
       SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
     // 这样配置的话，就会每次随机选一句话发送
     {
       keyword: 'lover_prattle',
@@ -56,10 +56,10 @@ const USER_CONFIG = {
         '你能不能别说话了?我满脑子都是你的声音。'
       ],
     },
-   ],
- ],
-},
-],
-  }
+   ], 
+    } 
+      
+      
+      
 module.exports = USER_CONFIG
 
