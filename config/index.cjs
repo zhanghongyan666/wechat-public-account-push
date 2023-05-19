@@ -19,11 +19,11 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '🥕',
+      name: '小张好困',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'orwxT52_tXUJRmT2-cdebmCH0lSY',
+      id: 'orwxT5w4VrTRe-vSL9PQWBkytrTA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'REfHcl2fRVyQTINRgs6GCKNoiDg6eOvn4QIt173UB6s',
+      useTemplateId: 'C6GTJ00lXUSwWxQnbPhD78k2Qw3qwt34oXHrgaOlgBs',
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
